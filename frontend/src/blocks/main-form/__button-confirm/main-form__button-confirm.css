@@ -1,0 +1,14 @@
+.main-form__button-confirm {
+    background-color: black;
+    margin-top: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 16.94px;
+}
+
+.main-form__button-confirm:hover {
+    opacity: .8;
+    transition: opacity 1s ease;
+}

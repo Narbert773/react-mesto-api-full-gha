@@ -1,0 +1,45 @@
+.profile-info__title {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 48px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-overflow: ellipsis;
+    max-width: 87.5%;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 1232px) {
+    .profile-info__title {
+        font-size: 35px;
+        line-height: 42px;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .profile-info__title {
+        font-size: 33px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .profile-info__title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .profile-info__title {
+        font-size: 27px;
+        line-height: 32.68px;
+        max-width: 67.021%;
+        margin-left: 16.3120567%;
+        margin-right: auto;
+    }
+}

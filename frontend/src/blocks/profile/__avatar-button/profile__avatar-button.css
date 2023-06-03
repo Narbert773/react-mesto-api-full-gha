@@ -1,0 +1,38 @@
+.profile__avatar-button {
+    max-width: 120px;
+    max-height: 120px;
+    border: none;
+    object-fit: cover;
+    min-width: 120px;
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+}
+
+.profile__avatar-button::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url('../../../images/Vector.svg');
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 26px;
+    opacity: 0;
+    transition: opacity .8s;
+    background-color: rgba(0, 0, 0);
+}
+
+.profile__avatar-button:hover::before {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+    .profile__photo-edit {
+        margin: 0 auto 0;
+    }
+}

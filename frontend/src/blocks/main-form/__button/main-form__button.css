@@ -1,0 +1,15 @@
+.main-form__button {
+    background-color: white;
+    min-height: 50px;
+    font-size: 18px;
+    line-height: 21.78px;
+    cursor: pointer;
+    margin-top: 220px;
+    border: none;
+    border-radius: 2px;
+}
+
+.main-form__button:hover {
+    opacity: .8;
+    transition: opacity 1s ease;
+}

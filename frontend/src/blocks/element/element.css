@@ -1,0 +1,37 @@
+.element {
+    width: 32.0454545%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+@media screen and (max-width: 950px) {
+    .element {
+        width: 48%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .element {
+        width: 75%;
+        align-self: center;
+        margin-bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .element:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .element {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

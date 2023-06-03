@@ -1,0 +1,18 @@
+.header {
+    max-width: calc(100% - (15.625% + 15.625%));
+    margin: 0 auto 0;
+    min-height: 74px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+}
+
+@media screen and (max-width: 434px) {
+    .header {
+        max-width: 100%;
+        margin: 0 auto 0;
+        min-height: 56px;
+    }
+}

@@ -1,0 +1,16 @@
+.main-form__input {
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    color: white;
+    background-color: black;
+    border-bottom: 2px solid rgba(204, 204, 204, 1);
+    margin-top: 77px;
+    min-height: 30px;
+    outline: none;
+}
+
+.main-form__input:nth-of-type(2) {
+    margin-top: 57px;
+}

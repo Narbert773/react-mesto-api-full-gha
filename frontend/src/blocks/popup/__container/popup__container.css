@@ -1,0 +1,29 @@
+.popup__container {
+    max-width: 430px;
+    min-width: 430px;
+    max-height: 400px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .popup__container {
+        min-width: 350px;
+        min-height: 330px;
+    }
+}
+
+@media screen and (max-width: 434px) {
+    .popup__container {
+        min-width: calc(100% - (5.9375% + 5.9375%));
+        min-height: 322px;
+    }
+}

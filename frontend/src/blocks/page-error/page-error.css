@@ -1,0 +1,8 @@
+.page-error {
+    color: white;
+    width: fit-content;
+    margin: 30% auto auto;
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: 900;
+}

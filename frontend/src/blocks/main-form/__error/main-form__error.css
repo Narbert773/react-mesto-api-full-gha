@@ -1,0 +1,10 @@
+.main-form__error {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    color: rgba(255, 0, 0, 1);
+    opacity: 1;
+    width: fit-content;
+    margin: 5px auto auto 0;
+    opacity: 0;
+}
