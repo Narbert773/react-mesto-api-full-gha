@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const helmet = require('helmet');
+const cors = require('cors');
 const router = require('./routes');
 const authMiddleware = require('./middlewares/auth');
 const errorHandler = require('./middlewares/errorHandler');
@@ -19,6 +20,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(helmet());
+app.use(cors());
 
 app.post('/signin', loginValid, login);
 app.post('/signup', createUserValid, createUser);
